@@ -1,0 +1,48 @@
+body {
+    background-color: #f7f3e9; /* Светлый кремовый фон */
+    font-family: 'Arial', sans-serif;
+    color: #4b3832; /* Темно-коричневый цвет текста */
+    text-align: center; /* Центрируем весь контент */
+    margin: 0;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #e55c3c; /* Теплый оранжево-красный цвет */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #d4a373; /* Рамка в теплых тонах */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px; /* Отступ снизу для отделения от ссылок */
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Промежуток между ссылками */
+}
+
+.links a {
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e55c3c; /* Цвет ссылок */
+    background-color: #fff; /* Белый фон для кнопок-ссылок */
+    padding: 10px 20px;
+    border: 2px solid #e55c3c;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background-color: #e55c3c; /* Меняем фон при наведении */
+    color: #fff; /* Меняем цвет текста на белый */
+}

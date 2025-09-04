@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "{% static 'main/css/about.css' %}" >
+    <title>О нас</title>
+</head>
+<body>
+     <h1>На нашем сайте вы найдите рецепты многих известных блюд, как из СНГ и Европы, так и Азии </h1>
+     <img src ="{% static 'main/img/officiant.jpg' %}" >
+
+     <div class="links">
+    <a href="{% url 'recipt' 'curnuku' %}">Сырники</a>
+    <a href="{% url 'recipt' 'pelmenu' %}">Пельмени</a>
+    <a href="{% url 'recipt' 'borw' %}">Борщ</a>
+    </div>
+    </body>
+</html>

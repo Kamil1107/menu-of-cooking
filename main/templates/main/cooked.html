@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<link rel = "stylesheet" href = "{% static 'main/css/recipt.css' %}">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block page %} {% endblock %} </title>
+</head>
+<body>
+     {% block craft %} {% endblock %}
+
+     {% block recipe %} {% endblock %}
+
+     {% block img %} {% endblock %}
+
+</body>
+</html>
